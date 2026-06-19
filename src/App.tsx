@@ -6,6 +6,7 @@ import Stories from './pages/Stories';
 import ArticlePage from './pages/ArticlePage';
 import About from './pages/About';
 import Blogs from './pages/Blogs'
+import ChatWidget from './components/ChatWidget';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         </Routes>
       </main>
       <Footer />
+      <ChatWidget />
     </div>
   );
 }
