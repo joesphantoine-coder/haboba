@@ -1,73 +1,42 @@
-# React + TypeScript + Vite
+# Haboba 🌙
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A platform preserving documented Sudanese folklore, mythology, and oral heritage — researched and sourced from real ethnographic and archival material.
 
-Currently, two official plugins are available:
+**[Live Site →](https://haboba.vercel.app)**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Why This Exists
 
-## React Compiler
+"Haboba" means grandmother in Sudanese Arabic — the traditional keeper of oral stories. Much of Sudan's folklore survives only in scattered academic archives and living memory. This project gathers real, sourced stories — from Nubian legends to desert tales — into one searchable, accessible place.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Every story links to its original documented source. Nothing is fabricated.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- 🔍 Real-time search across stories, regions, and summaries
+- 🏷️ Category filtering — Desert, River, Heritage, Legend
+- 📄 Dynamic article routing with source citations
+- 🎨 Custom color palette reflecting Nile and desert tones
+- 📱 Fully responsive design
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Tech Stack
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- **Vite** + **React 18** + **TypeScript**
+- **React Router v6** — client-side routing
+- **Tailwind CSS** — custom design system
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## Run Locally
+
+```bash
+git clone https://github.com/joesphantoine-coder/haboba.git
+cd haboba
+npm install
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Sources
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Stories are researched from documented folklore collections, including the Aarne-Thompson-Uther Folktale Index, Sudan Memory digital heritage archive, and published ethnographic work (Frobenius, Al-Shahi & Moore). Full citations appear on each article page.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## Author
+
+Mahmoud Gafar Ahmed Mohamed
