@@ -1,0 +1,117 @@
+{
+  "nav": {
+    "home": "Home",
+    "stories": "Stories",
+    "about": "About",
+    "donate": "Donate",
+    "signIn": "Sign In"
+  },
+  "footer": {
+    "tagline": "Preserving Sudanese folklore, mythology, and oral heritage — one documented story at a time.",
+    "navigation": "Navigation",
+    "connect": "Connect",
+    "contact": "Contact",
+    "allCitedNote": "All stories cited from documented sources",
+    "rights": "Cultural heritage project."
+  },
+  
+  "categories": {
+    "all": "All",
+    "Desert": "Desert",
+    "River": "River",
+    "Heritage": "Heritage",
+    "Legend": "Legend"
+  },
+  "stories": {
+    "pageTitle": "All Stories",
+    "pageSubtitle": "documented tales from across Sudan",
+    "searchPlaceholder": "Search stories, regions, legends...",
+    "noResults": "No stories match your search. Try another term.",
+    "minRead": "min read",
+    "clearSearch": "Clear search and filters"
+  },
+  "article": {
+    "backToStories": "Back to all stories",
+    "source": "Source",
+    "viewSource": "View original source",
+    "moreIn": "More {{category}} Tales"
+  },
+
+  
+  "home": {
+    "heroTitle": "Stories Carried by the Nile",
+    "heroSubtitle": "Haboba preserves documented Sudanese folklore, mythology, and oral heritage — from Nubian legends to desert tales — researched and cited from real ethnographic and archival sources.",
+    "exploreCta": "Explore the Stories",
+    "featuredTitle": "Featured Tales",
+    "viewAll": "View all",
+    "whyTitle": "Why Haboba Exists",
+    "whyBody": "\"Haboba\" means grandmother in Sudanese Arabic — the traditional keeper and teller of stories passed down through generations. Much of Sudan's oral heritage survives only in memory, at risk of being lost. This project gathers documented, sourced folklore into one place — so these stories outlive the people who once told them by firelight.",
+    "donateCta": "Support This Archive",
+    "categoriesTitle": "Browse by Category",
+    "closingTitle": "Help These Stories Outlive Us",
+    "closingBody": "Every story preserved here is one less story lost to time. Explore the archive, or support the work of keeping it growing.",
+    "closingExploreCta": "Start Reading",
+    "closingDonateCta": "Make a Donation"
+  },
+  "about": {
+    "title": "About Haboba",
+    "p1": "<strong>Haboba</strong> (حبوبة) means \"grandmother\" in Sudanese Arabic — the traditional keeper of family stories, the one who gathered children at night to pass down legends carried for generations.",
+    "p2": "This project exists because much of Sudan's oral heritage — Nubian legends, desert folklore, river myths, and regional tales — survives only in scattered archives, academic collections, and living memory.",
+    "p3": "Every story on this site is researched from documented, citable sources. Each article links back to its original source. Nothing here is invented; everything is summarized and retold from real, traceable material.",
+    "p4": "Haboba is an ongoing project. More stories, regions, and voices will be added as research continues.",
+    "missionTitle": "Our Mission",
+    "missionBody": "To ensure that Sudanese folklore, mythology, and oral history remain accessible — not locked away in academic archives, but alive, searchable, and readable by anyone, anywhere, in their own language.",
+    "whyMattersTitle": "Why Sudanese Folklore Matters",
+    "whyMattersBody": "Sudan sits at a crossroads of Nile Valley, Nubian, Beja, and Arab traditions — yet its folklore remains far less documented online than that of many neighboring cultures. Every story preserved here closes a small part of that gap.",
+    "visionTitle": "Our Vision",
+    "visionBody": "A growing, bilingual archive that serves both Sudanese readers reconnecting with their heritage and international audiences encountering it for the first time.",
+    "futureTitle": "What's Next",
+    "futureBody": "Full Arabic translations, community-contributed stories, audio narration, and partnerships with cultural archiving organizations.",
+    "builtByTitle": "Built by",
+    "builtByBody": "Mahmoud Gafar Ahmed Mohamed — a developer building in public, combining technical skill with a personal connection to Sudanese heritage."
+  },
+  "donate": {
+    "title": "Support the Archive",
+    "subtitle": "Help keep Sudanese folklore alive for the next generation.",
+    "missionTitle": "Why This Matters",
+    "missionBody": "Every story on Haboba takes real research time — finding documented sources, verifying folklore classifications, and writing accurate, respectful summaries. Donations help this archive grow faster and reach more people.",
+    "whyTitle": "Where Support Goes",
+    "reason1Title": "Research Time",
+    "reason1Body": "Sourcing and verifying folklore from ethnographic archives and academic collections.",
+    "reason2Title": "Arabic Translation",
+    "reason2Body": "Making every story fully accessible to Arabic-speaking readers, not just English ones.",
+    "reason3Title": "Archive Growth",
+    "reason3Body": "Expanding into more regions, more communities, and more of Sudan's oral traditions.",
+    "futureTitle": "Coming Soon",
+    "futureBody": "Online payment support is not yet available. We're setting up secure donation processing — check back soon, or reach out directly if you'd like to support this project now.",
+    "ctaTitle": "Want to help today?",
+    "ctaBody": "Reach out directly — every bit of support, financial or otherwise, helps this archive grow.",
+    "ctaButton": "Get in Touch"
+  },
+  "signin": {
+    "title": "Welcome Back",
+    "subtitle": "Sign in to save your favorite stories.",
+    "emailLabel": "Email",
+    "emailPlaceholder": "you@example.com",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "signInButton": "Sign In",
+    "orDivider": "or",
+    "googleButton": "Continue with Google",
+    "forgotPassword": "Forgot your password?",
+    "noAccount": "Don't have an account?",
+    "signUp": "Sign up"
+  },
+  
+  "blogs": {
+    "navLabel": "Community Tales",
+    "title": "Haboba Community Tales",
+    "subtitle": "Informal stories, myths, and interpretations shared from Sudanese oral tradition.",
+    "disclaimer": "These are informal, reader-shared retellings and have not been independently verified against documented sources — unlike the cited stories in our main archive.",
+    "by": "By"
+  }
+
+
+
+
+}

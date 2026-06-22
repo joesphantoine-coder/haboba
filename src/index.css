@@ -27,3 +27,11 @@ body {
     text-wrap: balance;
   }
 }
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid #c96b4b;
+  outline-offset: 2px;
+}
