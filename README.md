@@ -2,7 +2,7 @@
 
 A bilingual platform preserving documented Sudanese folklore, mythology, and oral heritage — researched and sourced from real ethnographic and archival material.
 
-**[Live Site →](https://haboba.vercel.app)**
+**[Live Site →](https://haboba-blue.vercel.app)**
 
 ## Why This Exists
 
