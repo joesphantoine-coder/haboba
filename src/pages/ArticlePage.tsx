@@ -37,6 +37,8 @@ export default function ArticlePage() {
 
   return (
     <article className="max-w-3xl mx-auto px-4 sm:px-6 py-12">
+            <SEO title={title} description={summary} image={story.image} />
+
       <Link to="/stories" className="text-terracotta-600 hover:text-terracotta-700 text-sm font-medium">
         ← {t('article.backToStories')}
       </Link>
